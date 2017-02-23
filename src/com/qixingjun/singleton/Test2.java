@@ -11,7 +11,7 @@ import java.util.concurrent.CountDownLatch;
  * @MyBlog www.qixingjun.tech
  * @Version 1.0.0
  * @Date 2017/2/22
- * @Description 测试集中单例模式的效率
+ * @Description 测试集中单例模式的效率测试
  */
 public class Test2 {
     public static void main(String[] args) throws Exception {
@@ -31,7 +31,7 @@ public class Test2 {
                 }
             }).start();
         }
-        countDownLatch.await();
+        countDownLatch.await();//main线程阻塞，直到countDownLatch变成0，才继续往下执行
         long stopTime = System.currentTimeMillis();
         System.out.println("总用时："+(stopTime-startTime));
     }
