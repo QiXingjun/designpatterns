@@ -1,4 +1,4 @@
-package com.qixingjun.factory.simplefactory;
+package com.qixingjun.factory.factorymethod;
 
 /**
  * @Author XingJun Qi
@@ -7,7 +7,7 @@ package com.qixingjun.factory.simplefactory;
  * @Date 2017/2/23
  * @Description
  */
-public class Audi implements Car {
+public class Audi implements Car{
     @Override
     public void run() {
         System.out.println("我是奥迪！");

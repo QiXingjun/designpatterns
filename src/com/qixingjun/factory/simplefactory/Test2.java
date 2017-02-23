@@ -1,5 +1,7 @@
 package com.qixingjun.factory.simplefactory;
 
+import com.qixingjun.factory.factorymethod.Car;
+
 /**
  * @Author XingJun Qi
  * @MyBlog www.qixingjun.tech

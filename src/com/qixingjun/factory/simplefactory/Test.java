@@ -1,5 +1,9 @@
 package com.qixingjun.factory.simplefactory;
 
+import com.qixingjun.factory.factorymethod.Audi;
+import com.qixingjun.factory.factorymethod.Bmw;
+import com.qixingjun.factory.factorymethod.Car;
+
 /**
  * @Author XingJun Qi
  * @MyBlog www.qixingjun.tech
