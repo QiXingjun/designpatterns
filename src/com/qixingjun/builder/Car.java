@@ -13,7 +13,7 @@ public class Car {
     private Tyre tyre;
 
     public void drive(){
-        System.out.println("汽车行驶...");
+        System.out.println("汽车行驶....");
     }
 
     public Engine getEngine() {
