@@ -21,7 +21,6 @@ public class Client {
 
 
         //对象适配器的方式
-        Client client2 = new Client();
         Adaptee adaptee = new Adaptee();
         Target target2 = new Adapter2(adaptee);
         client.test1(target2);
