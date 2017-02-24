@@ -8,14 +8,14 @@ package com.qixingjun.decorator;
  * @Description 装饰器
  */
 public class SuperCar implements ICar {
-    protected Car car;
+    protected ICar iCar;
 
-    public SuperCar(Car car) {
-        this.car = car;
+    public SuperCar(ICar iCar) {
+        this.iCar = iCar;
     }
 
     @Override
     public void move() {
-        car.move();
+        iCar.move();
     }
 }
