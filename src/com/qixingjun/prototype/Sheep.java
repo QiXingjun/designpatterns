@@ -1,5 +1,6 @@
 package com.qixingjun.prototype;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -9,7 +10,7 @@ import java.util.Date;
  * @Date 2017/2/23
  * @Description 以多利羊来演示原型模式（浅复制）
  */
-public class Sheep implements Cloneable{
+public class Sheep implements Cloneable,Serializable{
     private String name;
     private Date birthday;
 
