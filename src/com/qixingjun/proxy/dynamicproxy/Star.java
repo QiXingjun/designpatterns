@@ -5,7 +5,7 @@ package com.qixingjun.proxy.dynamicproxy;
  * @MyBlog www.qixingjun.tech
  * @Version 1.0.0
  * @Date 2017/2/24
- * @Description
+ * @Description  被代理类
  */
 public interface Star {
     void confer();  //面谈

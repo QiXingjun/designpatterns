@@ -5,7 +5,7 @@ package com.qixingjun.proxy.dynamicproxy;
  * @MyBlog www.qixingjun.tech
  * @Version 1.0.0
  * @Date 2017/2/24
- * @Description
+ * @Description  代理类
  */
 public class RealStar implements Star {
     @Override
